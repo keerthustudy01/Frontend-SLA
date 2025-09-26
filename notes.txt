@@ -1,0 +1,80 @@
+
+24/9
+
+Github desktop
+Netlify (code hosting platform) signin ith github
+
+
+25/9
+
+
+<! DOCTYPE html>  # this tells that this is the html document , in this doctype is element and html is attribute 
+#the above is said as self closing tag
+<html>- "parent element"- its also called "root container"
+<head>- this is called root elememt of an HTML doc- "firdt child"
+     <head>
+         <title> SLA Dday 1</title> # it wiwll change the web page name as title
+      </head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="./">
+
+<body>-"second child"
+<meta> this only open not close - this is called tag
+
+extra value given beside element tag is attribute 
+Ex: <html lang="en">
+     </html>
+
+< meta charset= "UTF-8"> # this unicode tranformation format is 8 bit characters  
+< meta name="viewport content="device-width, initial-scale=1.0" 
+<title> SLA </title>
+# viewport: blank content viewing in the port
+# 1.0 is the whole width of the port if we give 0.5 , it will split the port
+
+
+# head - giving important details - title , metadata, stylesheet
+# body - giving all the heading , it have the visible content
+ # those headings h1 to h6 is not for size , it is used to identify the elements
+#<head> , <body>- child container elements
+
+
+* tag- keyword inside the ankle bracket
+<>- opening tag
+</>- closing tag
+
+* element- tag + content
+ <> content </> 
+
+ *attributes- Extra inf given to an element inside the tag
+ * anchor tag
+ <a href="(some link we can give)" target="_blank">visist SLA </a>
+href="(some link we can give)" target="_blank"- these are the two attributes
+
+* <img src="" alt="this is a labrador dog">- instead f the link not wok , we can gve this command 
+* nested elements- elemenst wwithin the main element
+<p> I am <b>keerthana</b> enrolled in SLA insitute <br> Happy for this opportunity </p>
+
+
+
+26/9
+
+What do you think of aa ebpage is made of?
+Ans:  texts, links , multimedia files , button
+
+texts- collection of rods - sentence
+links - like joins , connection to the event somewhere happen
+multimedia files- audios , vidoes, images 
+button- is the event we are going to take to somewhere
+
+
+webpage- is like a house lets say we are going to build
+html- like a blueprint to the house (tells how the content are going to arrange)
+content - to build a hiouse we need bricks, windows etc..
+
+ 
+
+
+
+
+
+
