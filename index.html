@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -26,5 +26,179 @@
 
   
 
+</body>
+</html> -->
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Airtel — Mobile Recharge System</title>
+
+  <style>
+    :root {
+      --primary: #e40000;
+      --secondary: hsl(78, 100%, 70%);
+      --text-dark: #222;
+      --text-light: #fff;
+      --bg-light: #fafafa;
+      --radius: 12px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: var(--bg-light);
+      color: var(--text-dark);
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      color: var(--text-light);
+      text-align: center;
+      padding: 60px 20px;
+      border-bottom-left-radius: 40px;
+      border-bottom-right-radius: 40px;
+      animation: fadeIn 1.2s ease-in-out both;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    header h2 {
+      font-weight: 400;
+      font-size: 1.2rem;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+      text-align: center;
+    }
+
+    .info {
+      background: #fff;
+      border-radius: var(--radius);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+      padding: 30px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .info:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    }
+
+    h3 {
+      color: var(--primary);
+      margin-bottom: 10px;
+    }
+
+    h4 {
+      background: var(--primary);
+      color: white;
+      padding: 12px;
+      border-radius: var(--radius);
+      display: inline-block;
+      margin: 20px 0;
+      font-weight: 500;
+    }
+
+    p {
+      margin: 20px 0;
+      font-size: 1rem;
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+
+    a:hover {
+      color: var(--secondary);
+    }
+
+    .offer-img {
+      margin-top: 30px;
+      border-radius: var(--radius);
+      width: 100%;
+      max-width: 300px;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+      transition: transform 0.4s ease;
+    }
+
+    .offer-img:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      background: #fff;
+      border-top: 2px solid #eee;
+      margin-top: 40px;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (max-width: 600px) {
+      header h1 { font-size: 2rem; }
+      .info { padding: 20px; }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Welcome to Airtel</h1>
+    <h2>We are happy to serve you — <b>AIRTEL THANKS</b></h2>
+  </header>
+
+  <main>
+    <div class="info">
+      <h3>Customer Support</h3>
+      <p>Our customer care executives are available 24/7. Please feel free to share your queries.</p>
+
+      <h4>🎉 Bonus Offer: Recharge above ₹399 and get 50% extra data for 3 months!</h4>
+
+      <p>
+        Every <b>friend</b> is important — Airtel connects people and strengthens relationships
+        across the nation.
+      </p>
+
+      <h5>📞 Contact: <a href="tel:18001034444">1800-103-4444</a></h5>
+
+      <p>
+        For more details, visit our official website:  
+        <a href="https://www.airtel.in/" target="_blank">www.airtel.in</a>
+      </p>
+
+      <img class="offer-img" src="./image.png" alt="Airtel Offer Banner">
+    </div>
+  </main>
+
+  <footer>
+    © 2025 Airtel — Designed with ❤️ by Keerthu
+  </footer>
 </body>
 </html>
